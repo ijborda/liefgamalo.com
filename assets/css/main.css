@@ -3109,6 +3109,12 @@ html {
 	width: 100%;
 	height: 100%;
 }
+
+/* FOOTER */
+form input {
+	line-height: 0;
+}
+
 /* QUERIES */
 @media screen and (max-width: 992px) {
 	/* Publications */
