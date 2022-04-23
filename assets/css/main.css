@@ -3051,11 +3051,55 @@ html {
 	scroll-behavior: smooth;
 }
 
+/* PROJECTS */
+.projects {
+	display: flex;
+	margin-bottom: 5%;
+}
+.projects > div:first-child {
+	flex: 0 0 350px;
+	border-right: .5px solid rgb(194, 194, 194);
+	padding-right: 20px;
+}
+.projects > div:last-child {
+	padding-left: 20px;
+}
+.projects span {
+	color: var(--secondary-color);
+	font-weight: bold;
+}
+.agencies {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+	justify-content: flex-start;
+	margin-top: 10px;
+}
+.agencies img {
+	height: 50px;
+	width: auto;
+}
+
+/* QUERIES */
 @media screen and (max-width: 992px) {
+	/* Publications */
 	.publication {
 		flex-direction: column;
 	}
 	.publication > div:first-child {
 		max-width: 80%;
+	}
+
+	/* Projects */
+	.projects {
+		flex-direction: column;
+		padding: 0;
+	}
+	#content .projects > div {
+		padding: 0;
+	}
+	.projects > div:first-child{
+		flex-basis: auto;
+		margin-bottom: 20px;
 	}
 }
