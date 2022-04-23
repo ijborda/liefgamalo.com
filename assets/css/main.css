@@ -3056,6 +3056,9 @@ html {
 	display: flex;
 	margin-bottom: 5%;
 }
+#content .projects h2 {
+	margin-bottom: .5rem;
+}
 .projects > div:first-child {
 	flex: 0 0 350px;
 	border-right: .5px solid rgb(194, 194, 194);
@@ -3073,13 +3076,39 @@ html {
 	flex-wrap: wrap;
 	gap: 20px;
 	justify-content: flex-start;
-	margin-top: 10px;
 }
 .agencies img {
 	height: 50px;
 	width: auto;
 }
 
+/* MEDIAS */
+#content h2 {
+	margin-bottom: 2rem;
+}
+.media {
+	display: flex;
+	margin-bottom: 1.5rem;
+}
+.media > div:first-child {
+	padding: 0 20px;
+	flex: 0 0 450px;
+}
+.vidBox {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	padding-top: 32.25%;
+}  
+.responsive-iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+}
 /* QUERIES */
 @media screen and (max-width: 992px) {
 	/* Publications */
@@ -3101,5 +3130,19 @@ html {
 	.projects > div:first-child{
 		flex-basis: auto;
 		margin-bottom: 20px;
+	}
+
+	/* Medias */
+	.media {
+		flex-direction: column;
+	}
+	#content .media > div:first-child {
+		padding: 0;
+	}
+	.media > div:first-child {
+		flex-basis: auto;
+	}
+	.media > div:last-child {
+		flex-basis: 300px;
 	}
 }
