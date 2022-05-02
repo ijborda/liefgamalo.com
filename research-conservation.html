@@ -6,6 +6,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
 		<!-- Icon -->
 		<link rel="icon" href="assets/icon.ico">
+		<!-- Animations -->
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
 		<!-- Stylesheets -->
 		<link rel="stylesheet" href="assets/css/main.css"/>
 	</head>
@@ -36,7 +38,7 @@
 				<div class="container">
 					<!-- Content -->
 					<div id="content">
-						<div class="projects">
+						<div data-aos="fade-up" class="projects">
 							<div>
 								<h2>Human-Macaque Interface (HUMAIN)</h2>
 								<div class="agencies">
@@ -47,7 +49,7 @@
 								<p><span>Program Leader</span> of Program HUMAIN (Human-Macaque Interface) funded by the Department of Science and Technology-National Research Council of the Philippines. (January 2021-December 2022).</p>
 							</div>
 						</div>
-						<div class="projects">
+						<div data-aos="fade-up" class="projects">
 							<div>
 								<h2>Center for Applied Modelling, Data Analytic, and Bioinformatics for Decision Support System (AMBDABiDSS-Health)</h2>
 								<div class="agencies">
@@ -59,7 +61,7 @@
 								<p><span>Faculty Staff</span> for Project 3 the NICER Program entitled Center for Applied Modelling, Data Analytic, and Bioinformatics for Decision support system in Health funded by the Department of Science and Technology (February 2021-January 2023).</p>
 							</div>
 						</div>
-						<div class="projects">
+						<div data-aos="fade-up" class="projects">
 							<div>
 								<h2>Philippine Genome Center-Mindanao (PGC-Mindnao)</h2>
 								<div class="agencies">
@@ -71,7 +73,7 @@
 								<p><span>Faculty Staff</span> of Philippine Genome Center-Mindanao. Funded by the Department of Science and Technology (February 2019-present).</p>
 							</div>
 						</div>
-						<div class="projects">
+						<div data-aos="fade-up" class="projects">
 							<div>
 								<h2>API Flora and Fauna (Phase 1)</h2>
 								<div class="agencies">
@@ -82,7 +84,7 @@
 								<p><span>Co Project</span> Leader API Flora and Fauna of University of the Philippines Mindanao (Phase 2). (May 2021-present).</p>
 							</div>
 						</div>
-						<div class="projects">
+						<div data-aos="fade-up" class="projects">
 							<div>
 								<h2>API Flora and Fauna (Phase 2)</h2>
 								<div class="agencies">
@@ -93,7 +95,7 @@
 								<p><span>Project Leader</span> API Flora and Fauna of University of the Philippines Mindanao (Phase 1). (Completed)</p>
 							</div>
 						</div>
-						<div class="projects">
+						<div data-aos="fade-up" class="projects">
 							<div>
 								<h2>Ecological Profiling of Urban Wetlands in Davao City, Philippines</h2>
 								<div class="agencies">
@@ -198,6 +200,13 @@
 				</div>
 			</section>
 		</div>
+		<!-- Animations -->
+		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+		<script>
+			AOS.init({
+			once: true
+			});
+		</script>
 		<!-- Scripts -->
 		<script src="assets/js/jquery.min.js"></script>
 		<script src="assets/js/jquery.dropotron.min.js"></script>

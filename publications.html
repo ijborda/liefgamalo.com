@@ -6,6 +6,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
 		<!-- Icon -->
 		<link rel="icon" href="assets/icon.ico">
+		<!-- Animations -->
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
 		<!-- Stylesheets -->
 		<link rel="stylesheet" href="assets/css/main.css"/>
 	</head>
@@ -36,7 +38,7 @@
 				<div class="container">
 					<!-- Content -->
 					<div id="content">
-						<div class="box excerpt publication">
+						<div data-aos="fade-right" class="box excerpt publication">
 							<div>
 								<a href="#" class="image left"><img src="images/pic04.jpg" alt="" /></a>
 							</div>
@@ -55,7 +57,7 @@
 								</header>
 							</div>
 						</div>	
-						<div class="box excerpt publication">
+						<div data-aos="fade-right" class="box excerpt publication">
 							<div>
 								<a href="#" class="image left"><img src="images/pic04.jpg" alt="" /></a>
 							</div>
@@ -73,7 +75,7 @@
 								</header>
 							</div>
 						</div>
-						<div class="box excerpt publication">
+						<div data-aos="fade-right" class="box excerpt publication">
 							<div>
 								<a href="#" class="image left"><img src="images/pic04.jpg" alt="" /></a>
 							</div>
@@ -181,6 +183,13 @@
 				</div>
 			</section>
 		</div>
+		<!-- Animations -->
+		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+		<script>
+			AOS.init({
+			once: true
+			});
+		</script>
 		<!-- Scripts -->
 		<script src="assets/js/jquery.min.js"></script>
 		<script src="assets/js/jquery.dropotron.min.js"></script>
