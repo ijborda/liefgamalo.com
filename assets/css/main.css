@@ -3048,7 +3048,7 @@ input, select, textarea {
 }
 
 html {
-	scroll-behavior: smooth;
+	scroll-behavior: smooth !important;
 }
 
 /* PROJECTS */
@@ -3083,6 +3083,10 @@ html {
 }
 
 /* HOMEPAGE */
+#header.hp {
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url(../../images/banner.jpg) no-repeat center center;
+	background-size: cover;
+}
 .homepage .actions {
 	text-align: center;
 }
