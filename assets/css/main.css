@@ -3082,6 +3082,46 @@ html {
 	width: auto;
 }
 
+/* HOMEPAGE */
+.homepage .actions {
+	text-align: center;
+}
+
+#intro h3 {
+	color: white !important;
+}
+#intro .col-6 {
+	text-align: start;
+}
+
+#features span {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+#engagements article {
+	display: flex;
+	gap: 1rem;
+}
+#engagements article img {
+	width: 400px
+}
+
+
+#affiliations .container {
+	display: flex;
+	row-gap: 2rem;
+	column-gap: 3rem;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+#affiliations a {
+	width: fit-content;
+}
+#affiliations img {
+	height: 70px;
+	width: auto;
+}
+
 /* MEDIAS */
 #content h2 {
 	margin-bottom: 2rem;
