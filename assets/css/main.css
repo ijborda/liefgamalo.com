@@ -3156,6 +3156,14 @@ form input {
 }
 
 /* QUERIES */
+
+@media screen and (max-width: 980px) {
+	#engagements .engagements {
+			max-width: 40em;
+			margin: auto;
+	}
+}
+
 @media screen and (max-width: 992px) {
 	/* Publications */
 	.publication {
@@ -3165,6 +3173,14 @@ form input {
 		max-width: 80%;
 	}
 
+	/* Engagements */
+	#engagements article {
+		flex-direction: column;
+	}
+	#engagements article img {
+		width: 100%;
+	}
+	
 	/* Projects */
 	.projects {
 		flex-direction: column;
@@ -3176,6 +3192,13 @@ form input {
 	.projects > div:first-child{
 		flex-basis: auto;
 		margin-bottom: 20px;
+	}
+	.projects > div:first-child {
+		border-right: none;
+	}
+	.projects {
+		border-left: 0.5px solid rgb(194, 194, 194);
+		padding-left: 1rem;
 	}
 
 	/* Medias */
