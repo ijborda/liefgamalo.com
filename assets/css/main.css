@@ -3078,6 +3078,10 @@ html {
 	color: var(--secondary-color);
 	font-weight: bold;
 }
+.projects .pics img {
+	height: 18rem;
+	width: auto;
+}
 .agencies {
 	display: flex;
 	flex-wrap: wrap;
@@ -3210,6 +3214,10 @@ form input {
 	.projects {
 		border-left: 0.5px solid rgb(194, 194, 194);
 		padding-left: 1rem;
+	}
+	.projects .pics img {
+		height: 30vw;
+		width: auto;
 	}
 
 	/* Medias */
