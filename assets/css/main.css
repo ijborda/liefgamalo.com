@@ -3051,6 +3051,13 @@ html {
 	scroll-behavior: smooth !important;
 }
 
+/* INTRO */
+.about-me {
+	border: 1px solid white;
+	border-radius: .5rem;
+	padding: 2rem;
+}
+
 /* PROJECTS */
 .projects {
 	display: flex;
