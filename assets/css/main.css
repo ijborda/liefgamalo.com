@@ -3137,6 +3137,11 @@ html {
 	width: auto;
 }
 
+/* GALLERY */
+#gallery .thumb > h2 {
+    right: 2.1875em;
+}
+
 /* MEDIAS */
 #content h2 {
 	margin-bottom: 2rem;
