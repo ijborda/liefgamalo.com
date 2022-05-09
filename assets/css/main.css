@@ -3002,18 +3002,32 @@ input, select, textarea {
 	line-height: 1rem;
 	font-size: .8rem;
 }
+
+/* PUBLICATION */
+
 .publication {
 	display: flex;
 	border-bottom: .5px solid rgb(212, 212, 212);
 	margin-bottom: 2rem;
 }
 .publication > div:first-child {
-	max-width: 25%;
+	width: 30%;
+}
+.publication > div:last-child {
+	width: 70%;
 }
 .read-article-btn {
 	margin-top: 5px;
 	display: block;
 }
+.publication .keywords {
+	margin-bottom: 2em;
+}
+.publication p {
+	margin-bottom: .5em;
+}
+
+/* SOCIALS */
 .socials {
 	display: flex;
 	flex-wrap: wrap;
