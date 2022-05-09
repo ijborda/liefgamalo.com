@@ -3203,8 +3203,8 @@ form input {
 	.publication {
 		flex-direction: column;
 	}
-	.publication > div:first-child {
-		max-width: 80%;
+	.publication > div {
+		width: 100% !important;
 	}
 
 	/* Engagements */
@@ -3219,6 +3219,7 @@ form input {
 	.projects {
 		flex-direction: column;
 		padding: 0;
+		margin: 4rem 0;
 	}
 	#content .projects > div {
 		padding: 0;
@@ -3242,6 +3243,7 @@ form input {
 	/* Medias */
 	.media {
 		flex-direction: column;
+		margin: 4rem 0;
 	}
 	#content .media > div:first-child {
 		padding: 0;
@@ -3251,5 +3253,12 @@ form input {
 	}
 	.media > div:last-child {
 		flex-basis: 300px;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.wrapper .title {
+		width: 24em;
+    	margin-left: -12em;
 	}
 }
